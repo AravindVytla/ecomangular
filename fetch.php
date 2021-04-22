@@ -1,9 +1,7 @@
 <?php
 
-//fetch.php
 
 $connect = new PDO("mysql:host=localhost;dbname=prodisp", "root", "");
-//$connect = mysqli_connect('localhost','dprodis','p@qweQWE123','cywsitec_prodisp');
 
 
 $query = "SELECT * FROM tbl_product";

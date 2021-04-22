@@ -1,6 +1,5 @@
 <?php
 
-//add_item.php
 
 session_start();
 $product_data = json_decode(file_get_contents("php://input"));
@@ -41,6 +40,5 @@ else
 	$_SESSION["shopping_cart"][] = $item_array;
 	
 }
-//print_r($_SESSION["shopping_cart"]);
 
 ?>
