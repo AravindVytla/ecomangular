@@ -1,6 +1,5 @@
 <?php
 
-//remove_item.php
 
 session_start();
 

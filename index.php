@@ -32,7 +32,7 @@ session_start();
 		<nav class="navbar navbar-dark bg-success" style="
 		background-color: #2908FD;">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -50,10 +50,9 @@ session_start();
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     <!-- <a class="navbar-brand" style="font-size: 18px; color: white;" href="adminlogin.php"><i class="fas fa-user-lock"></i>  Admin Panel </a>-->
       <a class="" style="font-size: 18px; color: white;" href="carttry.php"> <i class="fas fa-shopping-bag"></i> BAG</a>
     </div>
-  </div><!-- /.container-fluid -->
+  </div>
 </nav>
 
 
